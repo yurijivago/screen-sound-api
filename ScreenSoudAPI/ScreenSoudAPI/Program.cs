@@ -9,9 +9,12 @@ using (HttpClient client = new HttpClient())
         string resposta = await client.GetStringAsync(apiAddress);
 
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta)!;
-        Console.WriteLine($"Temos {musicas.Count} músicas nessa lista");
-        LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);
+        //Console.WriteLine($"Temos {musicas.Count} músicas nessa lista");
         //musicas[100].ExibirDetalhesDaMusica();
+        //LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);
+        LinqOrder.ExibirListaDeArtistasOrdenados(musicas);
+
+        
         
     }
     catch (Exception ex)
