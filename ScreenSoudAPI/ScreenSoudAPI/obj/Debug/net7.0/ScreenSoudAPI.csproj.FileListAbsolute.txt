@@ -1,0 +1,14 @@
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\bin\Debug\net7.0\ScreenSoudAPI.exe
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\bin\Debug\net7.0\ScreenSoudAPI.deps.json
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\bin\Debug\net7.0\ScreenSoudAPI.runtimeconfig.json
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\bin\Debug\net7.0\ScreenSoudAPI.dll
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\bin\Debug\net7.0\ScreenSoudAPI.pdb
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\obj\Debug\net7.0\ScreenSoudAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\obj\Debug\net7.0\ScreenSoudAPI.AssemblyInfoInputs.cache
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\obj\Debug\net7.0\ScreenSoudAPI.AssemblyInfo.cs
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\obj\Debug\net7.0\ScreenSoudAPI.csproj.CoreCompileInputs.cache
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\obj\Debug\net7.0\ScreenSoudAPI.dll
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\obj\Debug\net7.0\refint\ScreenSoudAPI.dll
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\obj\Debug\net7.0\ScreenSoudAPI.pdb
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\obj\Debug\net7.0\ScreenSoudAPI.genruntimeconfig.cache
+C:\projetos-yurijivago\screen-sound-api\ScreenSoudAPI\ScreenSoudAPI\obj\Debug\net7.0\ref\ScreenSoudAPI.dll
