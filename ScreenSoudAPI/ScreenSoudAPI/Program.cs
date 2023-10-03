@@ -12,7 +12,8 @@ using (HttpClient client = new HttpClient())
         //Console.WriteLine($"Temos {musicas.Count} músicas nessa lista");
         //musicas[100].ExibirDetalhesDaMusica();
         //LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);
-        LinqOrder.ExibirListaDeArtistasOrdenados(musicas);
+        //LinqOrder.ExibirListaDeArtistasOrdenados(musicas);
+        LinqFilter.FiltrarArtistasPorGeneroMusical(musicas, "rock");
 
         
         
