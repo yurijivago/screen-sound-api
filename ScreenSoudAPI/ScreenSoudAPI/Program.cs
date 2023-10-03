@@ -1,5 +1,6 @@
 ﻿using ScreenSoudAPI.Modelos;
 using System.Text.Json;
+using ScreenSoudAPI.Filtros;
 
 using (HttpClient client = new HttpClient())
 {
@@ -9,7 +10,9 @@ using (HttpClient client = new HttpClient())
 
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta)!;
         Console.WriteLine($"Temos {musicas.Count} músicas nessa lista");
-        musicas[100].ExibirDetalhesDaMusica();
+        LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);
+        //musicas[100].ExibirDetalhesDaMusica();
+        
     }
     catch (Exception ex)
     {
