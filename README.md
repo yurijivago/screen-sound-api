@@ -9,4 +9,5 @@ Este projeto visa aplicar os conceitos de integração de uma aplicação C# com
 Dessa forma é apresentada uma forma de ordenar, filtrar e mapear para outros elementos,
  bem como gerar e consumir arquivos em C#.
 
-Abstraindo a API externa foi utilizado o arquivo "songs.json", presente na raiz do projeto.
+Abstraindo a API externa foi utilizado o arquivo "songs.json", presente no endereço:
+https://guilhermeonrails.github.io/api-csharp-songs/songs.json

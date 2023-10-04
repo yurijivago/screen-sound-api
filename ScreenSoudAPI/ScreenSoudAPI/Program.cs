@@ -14,7 +14,16 @@ using (HttpClient client = new HttpClient())
         //LinqFilter.FiltrarTodosOsGenerosMusicais(musicas);
         //LinqOrder.ExibirListaDeArtistasOrdenados(musicas);
         //LinqFilter.FiltrarArtistasPorGeneroMusical(musicas, "rock");
-        LinqFilter.FiltrarMusicasDeUmArtista(musicas, "U2");
+        //LinqFilter.FiltrarMusicasDeUmArtista(musicas, "U2");
+
+        var minhasMusicasPreferidas = new MusicasPreferidas("Lista do Yuri Jivago");
+        minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[37]);
+        minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[48]);
+        minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[77]);
+        minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[165]);
+        minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[173]);
+
+        minhasMusicasPreferidas.ExibirMusicasFavoritas();
 
 
 
