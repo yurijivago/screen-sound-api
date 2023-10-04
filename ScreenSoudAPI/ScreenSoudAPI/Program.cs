@@ -23,7 +23,8 @@ using (HttpClient client = new HttpClient())
         minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[165]);
         minhasMusicasPreferidas.AdicionarMusicaFavorita(musicas[173]);
 
-        minhasMusicasPreferidas.ExibirMusicasFavoritas();
+        //minhasMusicasPreferidas.ExibirMusicasFavoritas();
+        minhasMusicasPreferidas.GerarArquivoJson();
 
 
 
