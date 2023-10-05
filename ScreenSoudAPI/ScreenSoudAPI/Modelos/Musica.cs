@@ -5,7 +5,7 @@ namespace ScreenSoudAPI.Modelos;
 
 internal class Musica
 {
-    private string[] tonalidades = { "C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"};
+    public static string[] tonalidades = { "C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"};
     [JsonPropertyName("song")]
     public string? Nome { get; set; }
     [JsonPropertyName("artist")]
